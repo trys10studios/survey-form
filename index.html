@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
     <h1 id="title">Survey Form</h1>
@@ -13,12 +15,16 @@
         <label id="email-label">Email: <input id="email" type="email" placeholder="Email" required /></label>
         <label id="number-label">Number: </label><input id="number" type="number" min="0" max="10" placeholder="Number"
             required />
-        <select id="dropdown">How did you hear about us?
+        <select id="dropdown">
             <option>Internet</option>
             <option>Word of mouth</option>
         </select>
-        <input type="radio" name="1" value="1" />
-        <input type="radio" name="2" value="2" />
+        <input type="radio" name="radio" value="1" />
+        <input type="radio" name="radio" value="2" />
+        <input type="checkbox" value="yes" />
+        <input type="checkbox" value="no" />
+        <textarea></textarea>
+        <button id="submit" type="submit">Submit</button>
 
     </form>
 </body>
