@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    width: 50%;
+    display: block;
+}
+
+label:not(:last-type) {
+    width: 50%;
+    display: block;
+}
